@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 25px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 45px;
+  }
+}
+
+.fruits-counter-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .fruits-counter-card {
+    justify-content: space-evenly;
+  }
+}
+
+.fruits-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .fruits-card {
+    flex-direction: row;
+  }
+}
+.fruit-count-statement {
+  color: black;
+  font-family: roboto;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-count-statement {
+    font-size: 40px;
+  }
+}
+.fruit-count-digit {
+  color: #ffd569;
+}
+
+.each-fruit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.fruit-img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .fruit-img {
+    width: 70%;
+  }
+}
+
+.buttons {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
